@@ -1,0 +1,22 @@
+/* ضبط خلفية الصفحة إلى الأبيض */
+body {
+  background-color: white;
+  color: black;
+}
+.collapse{
+    padding: 10px;
+}
+/* تحسين مظهر السلايدر */
+.carousel-item img {
+  height: 653px;
+  object-fit: cover;
+}
+
+/* إزالة تنسيق الخلفية للنص داخل السلايدر */
+.carousel-caption {
+  position: absolute;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  top: 64%;
+  left: 50%;
+}
